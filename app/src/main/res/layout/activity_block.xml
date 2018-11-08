@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Introduzca algún texto"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/txtText1"
+        android:layout_width="fill_parent"
+        android:layout_height="208dp"
+        android:textAlignment="gravity"/>
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:onClick="onClickGuardar"
+        android:text="Guardar"
+        android:background="@color/colorPrimary"/>
+
+    <Button
+        android:id="@+id/btnCargar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:onClick="onClickCargar"
+        android:text="Cargar"
+        android:background="@color/colorPrimary"/>
+    
+</LinearLayout>
